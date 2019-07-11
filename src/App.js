@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 
+import SectionNavbars from './components/Header'
+import Data from './components/Data'
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+     <SectionNavbars />
+     <Data />
     </div>
   );
 }
